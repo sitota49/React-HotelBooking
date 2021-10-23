@@ -27,124 +27,12 @@ export default function Gallery() {
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rooms">
+     <a href="assets/img/gallery/3Z3A3055.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item ">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""/>
+              <img src="assets/img/gallery/3Z3A3055.JPG" class="img-fluid" alt=""/>
               <div class="portfolio-info">
-                <h4>rooms 1</h4>
-                <p>rooms</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="rooms 1"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-spa">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>spa 3</h4>
-                <p>spa</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="spa 3"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rooms">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>rooms 2</h4>
-                <p>rooms</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="rooms 2"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-gym">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>gym 2</h4>
-                <p>gym</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="gym 2"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-spa">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>spa 2</h4>
-                <p>spa</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="spa 2"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-rooms">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>rooms 3</h4>
-                <p>rooms</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="rooms 3"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-gym">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>gym 1</h4>
-                <p>gym</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="gym 1"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-gym">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>gym 3</h4>
-                <p>gym</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="gym 3"><i class="bx bx-plus"></i></a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-        <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hair">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Hair 3</h4>
-                <p>Hair</p>
+              
                 <div class="portfolio-links">
                   
                 
@@ -152,9 +40,176 @@ export default function Gallery() {
               </div>
             </div>
           </div>
-          </a>
+        </a>
 
-        </div>
+       <a href="assets/img/gallery/bed.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rooms">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/bed.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+ <a href="assets/img/gallery/3Z3A3085.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-gym">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3085.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+         
+         <a href="assets/img/gallery/3Z3A3261.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hair">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3261.JPG" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+ <a href="assets/img/gallery/3Z3A3456.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-gym">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3456.JPG" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        
+           <a href="assets/img/gallery/3Z3A3141.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-spa">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3141.JPG" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+<a href="assets/img/gallery/communal-area.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/communal-area.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+    <a href="assets/img/gallery/bed2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rooms ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/bed2.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+     <a href="assets/img/gallery/3Z3A3225.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hair ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3225.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+         <a href="assets/img/gallery/3Z3A3509.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-gym ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3509.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+         <a href="assets/img/gallery/3Z3A3242.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hair ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3242.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+         <a href="assets/img/gallery/3Z3A3145.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-spa ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/3Z3A3145.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+         
+         </div>
 
       </div>
     </section>

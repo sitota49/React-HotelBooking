@@ -6,6 +6,7 @@ import { RoomContext } from '../context';
 import StyledHero from '../components/StyledHero';
 import Navbar from '../components/Navbar';
 
+
 export default class SingleRoom extends Component {
     constructor (props){
         super(props);
@@ -34,69 +35,94 @@ export default class SingleRoom extends Component {
         const {name,description,capacity,size,price,extras,breakfast,pets,images} = room;
         const [mainImg, ...defaultBcg] = images;
         return (
+    
             <>
             <Navbar />
             <section class="breadcrumbs">
+                <div class="container bookNowContainer">
+
+                    <h2>{`${name} room`}</h2>
+
+                </div>
+            </section>
+
+            <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Portfolio Details</li>
-        </ol>
-        <h2>Portfolio Details</h2>
+        <div class="row gy-4">
 
-      </div>
-    </section>
-            <StyledHero img={mainImg || this.state.defaultBcg }>
-           
-            <Banner title={`${name} room`}>
-                   
-            </Banner>
-            </StyledHero>
-            <section className="single-room container">
-               <div className="row">
-                    {defaultBcg.map((item,index) => {
+          <div class="col-lg-8">
+          
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src={mainImg} height={400} alt=""/>
+                    </div>
+                     {defaultBcg.map((item,index) => {
                         return (
-                        <div className="col-md-4 col-12 mx-auto" key={index}>
-                            <div className="card border-0 shadow-lg">
+                        <>
+                        <div class="carousel-item" key={index}>
+                       
                                <img key={index} src={item} alt={name} className="img-fluid" />
                             </div>
-                        </div>)
+                        </>)
                     })}
-               </div>
-               <div className="single-room-info">
-                   <article className="desc">
-                      <h3>Details</h3>
-                      <p>{description}</p>
-                   </article>
-                   <article className="info">
-                      <h3>Info</h3>
-                      <h6>price : {price} ETB</h6>
-                      <h6>size  : {size} SQFT</h6>
-                      <h6>
-                          max capacity : {" "}
-                              {capacity > 1 ? `${capacity} people`: `${capacity} person`}
-                      </h6>
-                      <h6>{pets? 'pets allowed': 'no pets allowed'}</h6>
-                      <h6>{breakfast && "free breakfast included"}</h6>
-                   </article>
-               </div>
-            </section>
-            <section className="room-extras">
-                <h3>Extras</h3>
-                <ul className="extras">
+                   
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Room Inofrmation</h3>
+              <ul>                 
+                <li><strong>Price</strong>: {price} ETB</li>
+                <li><strong>Size</strong>: {size} Sqft</li>
+                <li><strong>Max. Capacity</strong>: {capacity > 1 ? `${capacity} people`: `${capacity} person`}</li>
+                <li>{pets? 'Pets allowed': 'No pets allowed'}</li>
+                <li> {breakfast && 'Free breakfast included'}</li>
+              </ul>
+            </div>
+
+            <div class="portfolio-description">
+              <h2>Extras</h2>
+             <ul className="extras">
                     {extras.map((item,index) => {
                           return <li key={index}>{item}</li>
                     })}
                 </ul>
-                <div className="p-4 clearfix">
-                    <div className="row">
-                       <div className="col-md-3 col-12 ml-auto">
-                          <Link to={`/booknow/${this.state.slug}`} className="btn btn-outline-primary btn-block btn-lg float-right ">Book Now</Link>
-                       </div>
-                    </div>
-                </div>
-            </section>
+            </div>
+          </div>
+
+        </div>
+         <div class="row roomDetails portfolio-description">
+                      <h2>Details</h2>
+                      <p>{description}</p>
+                  
+                     
+
+                          <a href={`/booknow/${this.state.slug}`} class="get-started-btn ">Book Now</a>
+                     
+        </div>
+               
+
+      </div>
+    </section>
             </>
         )
     }

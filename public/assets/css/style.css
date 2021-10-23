@@ -104,10 +104,134 @@ h6 {
 #header .logo img {
   max-height: 40px;
 }
+input[type="range"] {
+  height: 25px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 0px #000000;
+  background: #e03a3c;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #e03a3c;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #fcbfc0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #e03a3c;
+}
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 0px #000000;
+  background: #e03a3c;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+input[type="range"]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #e03a3c;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #fcbfc0;
+  cursor: pointer;
+}
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type="range"]::-ms-fill-lower {
+  background: #e03a3c;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type="range"]::-ms-fill-upper {
+  background: #e03a3c;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type="range"]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #e03a3c;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #fcbfc0;
+  cursor: pointer;
+}
+input[type="range"]:focus::-ms-fill-lower {
+  background: #e03a3c;
+}
+input[type="range"]:focus::-ms-fill-upper {
+  background: #e03a3c;
+}
+input[type="checkbox"]:checked + label::after {
+  content: "";
+  display: inline-block;
+  vertical-align: -25%;
+  height: 2ex;
+  width: 2ex;
+  background-color: #e03a3c;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 5px rgba(119, 119, 119, 0.25);
+  margin-right: 0.5em;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.specc {
+  background-color: #e03a3c;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.bookNowContainer {
+  margin-top: 35px;
+}
+.formControl select option[selected] {
+  background-color: #e03a3c;
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+  background: #fff;
+  color: #000;
+  border-color: #999;
+}
 
 /*--------------------------------------------------------------
 # Get Startet Button
 --------------------------------------------------------------*/
+.roomDetails .get-started-btn {
+  font-size: 18px;
+}
 .get-started-btn {
   margin-left: 30px;
   background: #e03a3c;
@@ -491,7 +615,7 @@ section {
 --------------------------------------------------------------*/
 
 .clients {
-  padding-left: 30px;
+  padding-left: 40px;
 }
 .clients .swiper-pagination {
   margin-top: 20px;
@@ -568,6 +692,11 @@ section {
   color: #e03a3c;
   margin-bottom: 10px;
 }
+.aboutIcons {
+  font-size: 40px;
+  color: #e03a3c;
+  margin-bottom: 10px;
+}
 .about .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -620,6 +749,48 @@ section {
   align-items: center;
   justify-content: center;
 }
+.amenityItem p {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.amenityItem:hover {
+  color: #e03a3c;
+}
+.amentiyIcon {
+  font-size: 48px;
+  margin-right: 10px;
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+  -moz-transition: 1s linear;
+  -ms-transition: 1s linear;
+  -o-transition: 1s linear;
+}
+.amentiyIcon:hover {
+  color: #e03a3c;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.icons {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #fff;
+  color: #e03a3c;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
 .counts .count-box span {
   font-size: 36px;
   display: block;
@@ -656,6 +827,10 @@ section {
 .tabs .nav-link i {
   padding-right: 15px;
   font-size: 48px;
+}
+.tabIcons {
+  padding-right: 15px;
+  font-size: 60px;
 }
 .tabs .nav-link h4 {
   font-size: 18px;
@@ -1119,6 +1294,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1186,7 +1362,75 @@ section {
   opacity: 1;
   bottom: 15px;
 }
+/* room Results */
 
+.roomResults .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: rgb(238, 237, 237);
+}
+.roomResults .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+.roomResults .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomResults .member .social a {
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  border-radius: 10px;
+  padding: 8px;
+  background: #e03a3c;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+.roomResults .member .social a:hover {
+  background: #111111;
+  text-decoration: none;
+}
+.roomResults .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+.roomResults .member .member-info {
+  padding: 25px 15px;
+}
+.roomResults .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #111111;
+}
+.roomResults .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.roomResults .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+.roomResults .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1872,3 +2116,6 @@ section {
   text-decoration: none;
 }
 
+.carousel .carousel-indicators li.active {
+  background-color: #e03a3c;
+}

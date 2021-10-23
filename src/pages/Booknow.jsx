@@ -54,11 +54,11 @@ export default class Booknow extends Component {
         const {name,capacity,size,price,breakfast,pets,images} = room;
         const [mainImg, ...defaultBcg] = images;
         return (
-        <div className="container my-5">
+        <div class="container my-5 ">
             <div className="row">
                 <div className="col-md-10 mx-auto col-12 card shadow-lg border-0 p-4">
                     <div>
-                        <h1 className="display-4">Booking</h1>
+                        <h1 className="display-4 bookNowContainer">Booking</h1>
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-12 my-auto">
@@ -109,18 +109,18 @@ export default class Booknow extends Component {
                     <div className="row">
                         <div className="col-md-6 col-12">
                             <h6 className="font-weight-bolder">Number of days : {daysLeft}</h6>
-                            <mark>Please make sure Checkin time is from 9 am to 12 pm</mark>
+                            <mark>Please make sure Check out time is 11 am</mark>
                         </div>
                         <div className="col-md-6 col-12">
-                            <h6 className="font-weight-bold">Price per day : <span className="badge badge-info">{price} ETB</span></h6>
-                            <h6 className="font-weight-bold">Total Price to be paid : <span className="text-primary">Rs {daysLeft*price}</span></h6>
+                            <h6 className="font-weight-bold">Price per day : <span className="badge">{price} ETB</span></h6>
+                            <h6 className="font-weight-bold">Total Price to be paid : <span className="specc"> {daysLeft*price} ETB</span></h6>
                         </div>
                     </div>
                     <div className="row my-4">
                         <div className="col-md-6 col-12">
-                            <div className="form-group">
+                            <div className="form-group formControl">
                                 <label htmlFor="payment" className="font-weight-bolder">Payment Options</label>
-                                <select className="form-control">
+                                <select class="form-control  danger">
                                     <option disabled>Select payment option</option>
                                     <option value="Credit">Credit Card</option>
                                     <option value="Debit">Debit Card</option>
@@ -130,7 +130,7 @@ export default class Booknow extends Component {
                         </div>
                         <div className="col-md-6 col-12 my-auto">
                             <div className="col-md-6 col-12 float-right">
-                                <button className="btn btn-block btn-outline-primary" data-toggle="modal" data-target="#thanks">Confirm Booking</button>
+                                <button className="btn btn-block btn-outline-success" data-toggle="modal" data-target="#thanks">Confirm Booking</button>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export default class Booknow extends Component {
                             <p className="lead">Your room is booked successfully....</p>
                         </div>
                         <div className="modal-footer">
-                            <Link to="/" className="btn btn-dark">Goto Home</Link>
+                            
                             <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>

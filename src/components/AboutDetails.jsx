@@ -1,5 +1,7 @@
 import React from 'react'
 import aboutImg from '../images/about.jpg';
+import {FaDumbbell, FaBed, FaCut, FaSpa} from 'react-icons/fa'
+import {IoIosBed, IoIosCut} from 'react-icons/io'
 export default function AboutDetails() {
    return(
         <section id="about" class="about section-bg">
@@ -7,9 +9,9 @@ export default function AboutDetails() {
         <div class="row no-gutters">
           <div class="content col-md-5 d-flex align-items-stretch">
             <div class="content">
-              <h3>Voluptatem dignissimos provident quasi</h3>
+              <h3>Kebron Guest House</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                 Kebron Guest House is a service destination within Addis Ababa where our guests can confidently leave every detail to us, so they can focus on what matters to them most during their stay.
               </p>
               <a href="/about" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a>
             </div>
@@ -18,24 +20,24 @@ export default function AboutDetails() {
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <IoIosBed className="aboutIcons"/>
+                  <h4>Rooms</h4>
+                  <p>35 well-appointed guestrooms, including twelve Suites, six Family Rooms, ten twin rooms and thirteen standard rooms.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <FaDumbbell className="aboutIcons"/>
+                  <h4>Gym and Fitness Center</h4>
+                  <p>Enjoy a complete workout at our 24-hour fitness center facilities offering everything you would expect in state-of-the-art equipment.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <IoIosCut className="aboutIcons"/>
+                  <h4>Hair Salon </h4>
+                  <p>We offer a variety of services including professional hair cutting and styling, manicures, pedicures, eyelash, makeup and wedding packages.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  <FaSpa className="aboutIcons"/>
+                  <h4>Spa and Wellness Center</h4>
+                  <p>Indulge in our Spa's fine selection of skin-care treatments. Relax and rejuvenate from head to toe while taking advantage of our exquisite facilities.</p>
                 </div>
               </div>
             </div>

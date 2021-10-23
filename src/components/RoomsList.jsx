@@ -22,7 +22,7 @@ export default function RoomsList({rooms}) {
     }
     return (
         <>
-        <section id="team" class="team section-bg ">
+        <section id="team" class="roomResults  ">
       <div class="container" data-aos="fade-up">
 
 
@@ -42,15 +42,7 @@ export default function RoomsList({rooms}) {
 
       </div>
     </section>
-        <section className="container">
-            <h1>helloo</h1>
-            <div className="row my-5">
-               {rooms.map(item => {
-                    return <Room key={item.id} room={item}/>;
-                })
-               }
-            </div>
-        </section>
+      
         </>
     );
 }
