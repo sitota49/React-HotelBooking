@@ -1,6 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import { FaAlignRight } from 'react-icons/fa';
+
 import jquery from 'jquery';
 import logo from '../images/output-onlinepngtools2.png';
 
@@ -27,17 +26,17 @@ const Navbar = () => {
           
           <li class="dropdown"><a href="#"><span>Spa</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Steam & Sauna</a></li>
+              <li><a href="/services/steamandsauna">Steam & Sauna</a></li>
               <li class="dropdown"><a href="#"><span>Hair Salon</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="/hairsalon#kids">Kids Salon</a></li>
-                  <li><a href="/hairsalon#women">Women Salon</a></li>
-                  <li><a href="/hairsalon#men">Men Salon</a></li>
+                  <li><a href="/services/kidshairsalon">Kids Salon</a></li>
+                  <li><a href="/services/womenhairsalon">Women Salon</a></li>
+                  <li><a href="/services/menhairsalon">Men Salon</a></li>
                 </ul>
               </li>
-              <li><a href="/massage">Massage</a></li>
-              <li><a href="/moroccobath">Morocco Bath</a></li>
-              <li><a href="/manicureandpedicure">Maincure & Pedicure</a></li>
+              <li><a href="/services/massage">Massage</a></li>
+              <li><a href="/services/moroccobath">Morocco Bath</a></li>
+              <li><a href="/services/manicureandpedicure">Maincure & Pedicure</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto " href="/gym">Gym</a></li>

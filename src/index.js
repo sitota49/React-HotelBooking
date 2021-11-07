@@ -8,14 +8,17 @@ import AOS from 'aos';
 import Isotope from 'isotope-layout'
 import Swiper from 'swiper'; 
 import GLightbox from 'glightbox';
+import { PagesProvider } from './pagesContext';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <PagesProvider>
   <RoomProvider>
      <App />
   </RoomProvider>
+  </PagesProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

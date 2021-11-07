@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import defaultBcg from '../images/room-3.jpeg';
-import Banner from '../components/Banner';
+
 import { Link } from 'react-router-dom';
 import { RoomContext } from '../context';
-import StyledHero from '../components/StyledHero';
+
 import Navbar from '../components/Navbar';
 
 

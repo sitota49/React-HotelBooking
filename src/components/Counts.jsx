@@ -1,6 +1,6 @@
 
 import React from 'react'
-import {FaDumbbell, FaBed, FaCut, FaSpa} from 'react-icons/fa'
+import {FaDumbbell, FaSpa} from 'react-icons/fa'
 import {IoIosBed, IoIosCut} from 'react-icons/io'
 export default function Counts() {
     return (
