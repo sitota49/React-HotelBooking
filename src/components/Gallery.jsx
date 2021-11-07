@@ -27,6 +27,38 @@ export default function Gallery() {
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+          <a href="assets/img/gallery/gym.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-gym">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/gym.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        
+
+        <a href="assets/img/gallery/spa.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-spa">
+            <div class="portfolio-wrap">
+              <img src="assets/img/gallery/spa.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-info">
+              
+                <div class="portfolio-links">
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
      <a href="assets/img/gallery/3Z3A3055.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" >
           <div class="col-lg-4 col-md-6 portfolio-item ">
             <div class="portfolio-wrap">

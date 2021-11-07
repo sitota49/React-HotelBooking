@@ -20,14 +20,14 @@ export default [
       name: "Standard",
       slug: "standard",
       type: "single",
-      price: 100,
+      price: 800,
       size: 200,
       capacity: 1,
       pets: false,
       breakfast: false,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -77,14 +77,14 @@ export default [
       name: "Economy",
       slug: "economy",
       type: "single",
-      price: 150,
+      price: 900,
       size: 250,
       capacity: 1,
       pets: false,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -131,17 +131,17 @@ export default [
       id: "3"
     },
     fields: {
-      name: "Single standard",
+      name: "Single",
       slug: "single-standard",
       type: "single",
-      price: 250,
+      price: 1000,
       size: 300,
       capacity: 1,
       pets: true,
       breakfast: false,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -188,17 +188,17 @@ export default [
       id: "4"
     },
     fields: {
-      name: "Single deluxe",
-      slug: "single-deluxe",
-      type: "single",
-      price: 300,
+      name: "Queen",
+      slug: "queen",
+      type: "double",
+      price: 1100,
       size: 400,
-      capacity: 1,
+      capacity: 2,
       pets: true,
       breakfast: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -245,17 +245,17 @@ export default [
       id: "5"
     },
     fields: {
-      name: "Double economy",
-      slug: "double-economy",
+      name: "King",
+      slug: "king",
       type: "double",
-      price: 200,
+      price: 1250,
       size: 300,
       capacity: 2,
       pets: false,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -302,17 +302,17 @@ export default [
       id: "6"
     },
     fields: {
-      name: "Double basic",
-      slug: "double-basic",
+      name: "Twin",
+      slug: "twin",
       type: "double",
-      price: 250,
+      price: 1350,
       size: 350,
       capacity: 2,
       pets: false,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -362,14 +362,14 @@ export default [
       name: "Suite",
       slug: "suite",
       type: "double",
-      price: 300,
+      price: 2250,
       size: 400,
       capacity: 2,
       pets: true,
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Discover tasteful and refined but casual and comfortable guest rooms and suites that meet your long-term needs and offer guests a work-from-home solution. We provide modern amenities in spacious, technically advanced, clean lodging for families, business travelers, and large groups.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",

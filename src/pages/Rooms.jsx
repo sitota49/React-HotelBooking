@@ -8,9 +8,9 @@ const Rooms = () => {
     <div>
         {/* <Hero hero="roomsHero">
         </Hero> */}
-        <Banner title="Available Rooms" subtitle="Best in Class Room">
+        {/* <Banner title="Available Rooms" subtitle="Best in Class Room">
                
-        </Banner>
+        </Banner> */}
         <RoomsContainer/>
     </div>
     )

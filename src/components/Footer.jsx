@@ -17,8 +17,9 @@ const Footer = () => {
             Nifas Silk Lafto <br/>
               Addis Ababa,<br/>
               Ethiopia <br/><br/>
-              <strong>Phone:</strong> +251 93 009 7788<br/>
-              <strong>Email:</strong> guests@kebronguesthouse.com<br/>
+              <strong>Phone:</strong> +251 911 213124<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               +251 911 613926<br/>
+              <strong>Email:</strong> kebrongh@gmail.com<br/>
 </p>
           </div>
 
@@ -56,7 +57,7 @@ const Footer = () => {
       </div>
       <div class="social-links text-center text-md-end pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/kebronguesthouse" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>

@@ -4,8 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const RoomContext = React.createContext();
 
-
-export default class RoomProvider extends Component {
+class RoomProvider extends Component {
     state={
         rooms: [],
         sortedRooms: [],

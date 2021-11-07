@@ -20,7 +20,8 @@ export default class SingleRoom extends Component {
         const { getRoom } = this.context;
         const room = getRoom(this.state.slug);
         if(!room){
-            return (<div className="container roomerror">
+            return (
+            <div className="container roomerror">
                     <div className="row my-5">
                         <div className="col-md-6 col-12 mx-auto">
                             <div className="card shadow-lg border-0 p-4 error">

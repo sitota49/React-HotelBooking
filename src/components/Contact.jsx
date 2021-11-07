@@ -28,14 +28,16 @@ export default function Contact() {
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>guests@kebronguesthouse.com</p>
+                  <p>kebrongh@gmail.com</p>
+                  <p><br/></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <p>+251 93 009 7788</p>
+                  <p>+251 911 213124</p>
+                  <p>+251 911 613926</p>
                 </div>
               </div>
             </div>
@@ -64,6 +66,7 @@ export default function Contact() {
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
+              <p><br/></p>
             </form>
           </div>
 

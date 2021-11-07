@@ -10,6 +10,7 @@ import Swiper from 'swiper';
 import GLightbox from 'glightbox';
 
 
+
 ReactDOM.render(
   <React.StrictMode>
   <RoomProvider>
@@ -74,8 +75,6 @@ serviceWorker.unregister();
       }
     })
   }
-  window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)
 
   /**
    * Scrolls to an element with header offset
@@ -174,6 +173,19 @@ serviceWorker.unregister();
       }
     }
   });
+
+    window.addEventListener('load', navbarlinksActive)
+  onscroll(document, navbarlinksActive)
+
+  let heroCarouselIndicators = select("#hero-carousel-indicators")
+  let heroCarouselItems = select('#heroCarousel .carousel-item', true)
+
+  heroCarouselItems.forEach((item, index) => {
+    (index === 0) ?
+    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
+  });
+
   /**
    * Clients Slider
    */
